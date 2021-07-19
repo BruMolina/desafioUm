@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section-container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-section-one{
+  background-image: url(../assets/fundo.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-container{
+  background: #fff;
+  border-radius: 25px;
+  padding: 25px;
+  max-width: 450px;
+  border: solid 1px #E08CF9;
+}
+
+input{
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 5px;
+  background: #fff;
+  color: #E08CF9
+}
+
+.botao{
+  width: 100%;
+  background: #E08CF9;
+  color: #fff
+}
+
+form{
+  display: grid;
+}
+
+footer{
+  text-align: center;
+  color: #E08CF9;
+}
+
+.t1{
+  font-size: 50px;
+}
+
+.t2{
+  font-size: 25px;
+  margin-left: 25%;
+}
+
+.t3{
+  font-size: 10px;
+  color: #E08CF9;
+  padding-bottom: 10px;
+}
